@@ -1,5 +1,10 @@
-# jeverett93.github.io
+Contributors: jeverett93.github.io
 
-## This is a title
+Technology Stack: HTML, CSS Bootstrap
 
-### This is my portfolio
+Contact: 
+josheverett93@gmail.com
+https://www.linkedin.com/in/joshua-everett-087a4649/
+https://github.com/jeverett93
+
+#### About: 
