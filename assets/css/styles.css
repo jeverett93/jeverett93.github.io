@@ -13,3 +13,16 @@
 .portfolio-img{
     margin: 10px;
 }
+body{
+    background: lightgray;
+}
+
+.container{
+    margin: 50px;
+}
+
+#about-row{
+    height: 400px;
+    border: solid black;
+}
+
