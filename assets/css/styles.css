@@ -9,3 +9,7 @@
 .hr{
     border-top: 1px solid gray;
 }
+
+.portfolio-img{
+    margin: 10px;
+}
