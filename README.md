@@ -8,3 +8,5 @@ https://www.linkedin.com/in/joshua-everett-087a4649/
 https://github.com/jeverett93
 
 About: This is my portfolio page which includes information about me, the projects I've worked on, and a way to contact me.
+
+Things to Fix: Nav-bar not covering width of page when screen shrinks, border on about page when screen shrinks, making contact form responsive when screen shrinks, look into img-fluid

@@ -14,7 +14,7 @@
     margin: 10px;
 }
 body{
-    background: lightgray;
+    background: green;
 }
 
 .container{
@@ -26,3 +26,20 @@ body{
     border: solid black;
 }
 
+@media screen and (max-width: 980px) {
+    .form{
+      width: 80%;
+      margin-top: 0;
+
+    }@media screen and (max-width: 768px) {
+    .form{
+      width: 80%;
+      margin-top: 0;
+    }
+
+  }@media screen and (max-width: 640px) {
+    .form{
+      width: 80%;
+      margin-top: 0;
+    }
+  }
