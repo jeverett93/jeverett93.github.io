@@ -23,7 +23,7 @@ body{
 
 #about-row{
     height: 400px;
-    border: solid black;
+    border: outset;
 }
 
 @media screen and (max-width: 980px) {
