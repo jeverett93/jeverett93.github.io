@@ -1,6 +1,8 @@
+Live Link: https://jeverett93.github.io/
+
 Contributors: jeverett93.github.io
 
-Technology Stack: HTML, CSS Bootstrap, CSS
+Technology Stack: HTML5, CSS Bootstrap, CSS3
 
 Contact: 
 josheverett93@gmail.com
