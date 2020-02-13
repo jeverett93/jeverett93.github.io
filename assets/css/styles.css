@@ -1,3 +1,7 @@
+body{
+    background-color: lightsalmon;
+}
+
 .form{
     width: 800px;
     height: 500px;
@@ -13,16 +17,14 @@
 .portfolio-img{
     margin: 10px;
 }
-body{
-    background: green;
-}
+
 
 .container{
     margin: 50px;
 }
 
 #about-row{
-    height: 400px;
+    max-height: 600px;
     border: outset;
 }
 
