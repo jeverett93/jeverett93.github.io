@@ -11,7 +11,7 @@ body {
 
 /* Created border for about section and made its layout responsive */
 #about-row{
-    max-height: 90%;
+    max-height: 100%;
     border: outset;
 }
 
