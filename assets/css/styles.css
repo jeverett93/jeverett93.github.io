@@ -12,7 +12,7 @@ body {
 /* Created border for about section and made its layout responsive */
 #about-row{
     max-height: 60%;
-    border: outset;
+    /* border: outset; */
 }
 
 /* created space between portfolio placeholders */
