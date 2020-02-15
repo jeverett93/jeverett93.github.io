@@ -10,7 +10,7 @@ body {
 }
 
 /* Created border for about section and made its layout responsive */
-#about-row{
+.card{
     max-height: 100%;
     border: outset;
 }
