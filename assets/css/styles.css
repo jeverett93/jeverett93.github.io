@@ -1,7 +1,26 @@
+/* Made background of site light blue */
 body {
     background-color: lightblue;
   }  
 
+  /* Added space inside containers for content and seperated it from sticky footer with margin */
+.container{
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+/* Created border for about section and made its layout responsive */
+#about-row{
+    max-height: 60%;
+    border: outset;
+}
+
+/* created space between portfolio placeholders */
+.portfolio-img{
+    margin: 10px;
+}
+
+/* styled contact form */
 .form{
     width: 800px;
     height: 500px;
@@ -10,24 +29,12 @@ body {
     border: outset ;
 }
 
+/* Created an underline after title of Contact Me form */
 .hr{
     border-top: 1px solid gray;
 }
 
-.portfolio-img{
-    margin: 10px;
-}
-
-.container{
-    padding-top: 100px;
-    margin-bottom: 50px;
-}
-
-#about-row{
-    max-height: 60%;
-    border: outset;
-}
-
+/* sticky footer! */
 .footer {
     position: fixed;
     left: 0;
@@ -38,6 +45,7 @@ body {
     text-align: center;
 }
 
+/* media query to make contact form layout resonsive at different screen sizes */
 @media screen and (max-width: 980px) {
     .form{
       width: 80%;
