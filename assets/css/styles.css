@@ -23,6 +23,7 @@ body {
 /* styled contact form */
 .form{
     width: 800px;
+    padding: 10px;
     height: 500px;
     margin: 30px ;
     background-color: white;
