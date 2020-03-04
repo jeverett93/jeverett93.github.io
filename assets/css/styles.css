@@ -18,6 +18,8 @@ body {
 /* created space between portfolio placeholders */
 .portfolio-img{
     margin: 10px;
+    max-width: 200px;
+    height: 200px;
 }
 
 /* styled contact form */
