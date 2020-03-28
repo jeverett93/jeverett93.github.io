@@ -32,6 +32,10 @@ body {
     border: outset ;
 }
 
+.portfolio-row{
+  margin-bottom: 50px;
+}
+
 /* Created an underline after title of Contact Me form */
 .hr{
     border-top: 1px solid gray;
