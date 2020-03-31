@@ -3,53 +3,59 @@ body {
     background-color: lightblue;
   }  
 
-  /* Added space inside containers for content and seperated it from sticky footer with margin */
+  /* Added space inside containers for content and separated it from sticky footer with margin */
 .container{
     margin-bottom: 50px;
 }
 
+/* Changing font of bio */
 .bio-text{
   font-weight: bold;
   font-size: larger;
 }
 
-/* Created border for about section and made its layout responsive */
-.card{
-    max-height: 100%;
-    border: outset;
-}
-
-.card-img{
+/* size of profile image*/
+.profile-img{
   max-height: 600px;
-  max-width: 600px;
 }
 
+/* space between image and next row */
 .img-row{
   margin-bottom: 50px;
 }
 
-/* created space between portfolio placeholders */
+/* Created border for cards in portfolio section*/
+.card{
+  max-height: 100%;
+  border: outset;
+}
+
+/* created space within portfolio cards for images */
 .portfolio-img{
     margin: 10px;
     height: 200px;
 }
 
+/* space between portfolios and next row */
 .portfolio-row{
   margin-top: 10px;
 }
 
+/* space between contact header and row above */
+.contact-row{
+  margin-top: 20px;
+}
+
+/* size and margin for contact icons */
 .icons {
   margin-bottom: 10px;
   width:50px;
   height: 50px;
 }
 
+/* space between icons and bottom of page */
 .icon-row{
   margin-bottom: 50px;
-}
-
-.contact-row{
-  margin-top: 20px;
 }
 
 /* sticky footer! */
