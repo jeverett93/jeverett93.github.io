@@ -1,23 +1,26 @@
-#PersonalPortfolio
+# PersonalPortfolio
 
-#Live Link: https://jeverett93.github.io/
+# Live Link: https://jeverett93.github.io/
 
-#About: 
+# About: 
 This is my professional profile page which includes information about me, the projects I've worked on, and my contact info.
 
-#Contributors: jeverett93.github.io
+# Contributors: jeverett93.github.io
 
-#Technology Stack: 
+# Technology Stack: 
 HTML5, CSS Bootstrap, CSS3
 
-#Contact: 
+# Contact: 
 josheverett93@gmail.com
 https://www.linkedin.com/in/joshua-everett-087a4649/
 https://github.com/jeverett93
 
-#Credits:
+# Usage
+For employers and colleagues who want to network and learn more about my work and skill set. 
+
+# Credits:
 www.w3schools.com
 
-#License: MIT
+# License: MIT
 
 
