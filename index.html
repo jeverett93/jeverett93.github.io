@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,81 +7,110 @@
     <title>Josh Everett Professional Profile</title>
 
     <!-- link to Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- link to CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
+
 <body>
-
-  <!-- navigation bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1">Josh Everett</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <nav class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-      </ul>
-    </nav>
-    </nav>
-
-    <!-- About section with image and bio -->
-    <section class="container">
-          <div class="card mb-3" style="max-width: 980px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="heading fixed-top sticky-top text-center">
+                    <h1 class="page-title">Josh Everett</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="bio-text">Developer in development. Alabamian in Tennessee. Putting the funk in
+                    back-end functionality.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 offset-3 text-center">
                 <img src="assets\images\profile picture.jpg" class="card-img" alt="photo of me">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h1 class="card-title">About Me</h1>
-                  <p class="card-text">I am originally from Leeds, Alabama, and I attended school at Vanderbilt University. I am eager to begin my career as a developer.</p>
-                  <p class="card-text"><small class="text-muted"></small></p>
-                </div>
-              </div>
             </div>
-          </div>
+        </div>
 
-          <!-- Contact Row -->
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="contact-head text-center">Contact Me</h2>
-              <div class="row">
-                <div class="offset-md-3 col-md-2">
-                  <a href="https://www.linkedin.com/in/joshua-everett-087a4649/" target="_blank">
-                    <img class="icons" src="assets/images/linkedin-logo-icon.png" alt="linkedin icon"/>
-                  </a>
+        <!-- portfolio section -->
+        <div class="row portfolio-row">
+            <div class="col-md-3 col-sm-10 offset-sm-1">
+                <div class="card mb-3" style="max-width: 230px">
+                    <h5 class="card-title text-center">Directions App</h5>
+                    <a href="https://jeverett93.github.io/directions-weather/" target="_blank">
+                        <img class="portfolio-img text-center" src="assets/images/Project 1.jpg" alt="portfolio image">
+                    </a>
+                    <a href="https://github.com/jeverett93/directions-weather" target="_blank">
+                        <div class="text-center">View Code</div>
+                    </a>
                 </div>
-                <div class="col-md-2">
-                  <a href="https://github.com/jeverett93" target="_blank">
-                    <img class="icons" src="assets/images/github icon.svg" alt="github icon"/>
-                  </a>
-                </div>
-                <div class="col-md-2">
-                  <a href="mailto:josheverett93@gmail.com" target="_blank">
-                    <img class="icons" src="assets/images/Gmail_logo.jpg" alt="email icon"/>
-                  </a>
-                </div>
-              </div>
             </div>
-          </div>
+            <div class="col-md-3 col-sm-10 offset-sm-1">
+                <div class="card mb-3" style="max-width: 230px">
+                    <h5 class="text-center">Weather Dashboard</h5>
+                    <a href="https://jeverett93.github.io/weatherdashboard/" target="_blank">
+                        <img class="portfolio-img text-center" src="assets/images/Weather Dashboard.jpg" alt="portfolio image">
+                    </a>
+                    <a href="https://github.com/jeverett93/weatherdashboard" target="_blank">
+                        <div class="text-center">View Code</div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-10 offset-sm-1">
+                <div class="card mb-3" style="max-width: 230px">
+                    <h5 class="text-center">Daily Planner</h5>
+                    <a href="https://jeverett93.github.io/dailyplanner/" target="_blank">
+                        <img class="portfolio-img text-center" src="assets/images/Workday Scheduler.jpg" alt="portfolio image">
+                    </a>
+                    <a href="https://github.com/jeverett93/dailyplanner" target="_blank">
+                        <div class="text-center">View Code</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Row -->
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="contact-head text-center">Contact Me</h2>
+            <div class="row contact-row">
+                <div class="offset-md-3 col-md-2">
+                    <a href="https://www.linkedin.com/in/joshua-everett-087a4649/" target="_blank">
+                        <img class="icons" src="assets/images/linkedin-logo-icon.png" alt="linkedin icon" />
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://github.com/jeverett93" target="_blank">
+                        <img class="icons" src="assets/images/github icon.svg" alt="github icon" />
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="mailto:josheverett93@gmail.com" target="_blank">
+                        <img class="icons" src="assets/images/Gmail_logo.jpg" alt="email icon" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
 
     <footer class="footer">
-      <h6>Josh Everett</h6>
+        <h6>Josh Everett</h6>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
