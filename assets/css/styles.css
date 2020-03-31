@@ -5,7 +5,6 @@ body {
 
   /* Added space inside containers for content and seperated it from sticky footer with margin */
 .container{
-    /* padding-top: 100px; */
     margin-bottom: 50px;
 }
 
@@ -32,7 +31,7 @@ body {
 /* created space between portfolio placeholders */
 .portfolio-img{
     margin: 10px;
-    max-width: 200px;
+    max-width: 250px;
     height: 200px;
 }
 
@@ -64,24 +63,3 @@ body {
     color: white;
     text-align: center;
 }
-
-/* media query to make contact form layout resonsive at different screen sizes */
-@media screen and (max-width: 980px) {
-    
-}
-    
-@media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 640px) {
-  /* body{
-    text-align: center !important;
-  }
-  .portfolio-row{
-    justify-content: center;
-  }
-  .form{
-      width: 80%;
-      margin-top: 0;
-    } */
-  }
