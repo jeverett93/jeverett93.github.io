@@ -20,6 +20,10 @@ body {
   max-width: 50%;
 }
 
+.img-row{
+  margin-bottom: 50px;
+}
+
 /* created space between portfolio placeholders */
 .portfolio-img{
     margin: 10px;
